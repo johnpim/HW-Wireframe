@@ -1,0 +1,95 @@
+body {
+	background: #777;
+	font-size: 18px; 
+}
+
+div {
+	background: #ebebeb;
+	position: relative;
+}
+
+.header {
+	font-family: Arial;
+	padding: 20px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.nav {
+	font-family: Arial;
+	padding: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.section {
+	font-family: helvetica;
+	padding-top: 10px;
+	text-align: center;
+	width: 55%;
+	height: 180px;
+	border: 1px solid #eee;
+	float: left;
+	z-index: 0;
+}
+
+ .article {
+ 	font-family:sans-serif;
+ 	clear:both;
+ 	background: #777;
+ 	padding-top: 10px;
+ 	text-align: center;
+ 	width: 300px;
+ 	height: 120px;
+ 	border: 1px solid #eee;
+ 	bottom: 160px;
+ 	left: 30px;
+ 	z-index: 1;
+ 	color:#ebebeb;
+	
+ }
+
+ .heading {
+ 	background: #ebebeb;
+ 	font-weight: bold;
+ 	padding-top: 5px;
+ 	text-align: center;
+ 	width: 33%;
+ 	z-index: 2;
+ 	bottom: 250px;
+ 	left: 75px;
+ 	margin-bottom: 20px;
+ 	border: 1px solid #eee;
+ }
+
+ .para {
+ 	font-family: helvetica;
+ 	background: #ebebeb;
+ 	padding-top: 5px;
+ 	text-align: center;
+ 	width: 33%;
+ 	z-index: 2;
+ 	bottom: 260px;
+ 	left: 75px;
+ 	border: 1px solid #eee;
+}
+
+ .aside {
+ 	float: left;
+ 	background: #ebebeb;
+ 	padding-top: 5px;
+ 	text-align: center;
+ 	width: 41%;
+ 	height: 187px;
+ 	bottom: 400px;
+ 	left: 380px;
+
+
+ }
+
+ .footer {
+ 	font-family: Arial;
+ 	padding: 20px;
+	margin-bottom: 20px;
+	bottom: 200px;
+ }
